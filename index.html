@@ -6,12 +6,18 @@
 <title>Vellamo — uinninopetuksen hallintajärjestelmä</title>
 <meta name="description" content="Vellamo on selainpohjainen hallintajärjestelmä uinninopetukseen. Oppilastiedot, ryhmät, vuorot ja uimataidon seuranta yhdessä paikassa.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://vellamo.hailer.com">
+<link rel="canonical" href="https://www.hailervellamo.com">
 <meta property="og:title" content="Vellamo — uinninopetuksen hallintajärjestelmä">
 <meta property="og:description" content="Vellamo yhdistää uinninopetuksen prosessin alusta loppuun yhtenäiseksi, selainpohjaiseksi palveluksi.">
-<meta property="og:url" content="https://vellamo.hailer.com">
+<meta property="og:url" content="https://www.hailervellamo.com">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fi_FI">
+<meta property="og:image" content="https://www.hailervellamo.com/kuvat/vellamo-maskotti.png">
+<meta property="og:site_name" content="Vellamo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vellamo — uinninopetuksen hallintajärjestelmä">
+<meta name="twitter:description" content="Vellamo yhdistää uinninopetuksen prosessin alusta loppuun yhtenäiseksi, selainpohjaiseksi palveluksi.">
+<meta name="twitter:image" content="https://www.hailervellamo.com/kuvat/vellamo-maskotti.png">
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   :root{
@@ -458,6 +464,35 @@ function showAudience(id, el) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.getElementById('aud-' + id).classList.add('active');
   el.classList.add('active');
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Vellamo",
+  "description": "Vellamo on selainpohjainen hallintajärjestelmä uinninopetukseen. Oppilastiedot, ryhmät, vuorot ja uimataidon seuranta yhdessä paikassa.",
+  "url": "https://www.hailervellamo.com",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "inLanguage": "fi",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Hailer Oy",
+    "url": "https://www.hailer.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rihkamatori 2",
+      "postalCode": "06100",
+      "addressLocality": "Porvoo",
+      "addressCountry": "FI"
+    }
+  }
 }
 </script>
 

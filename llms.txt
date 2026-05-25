@@ -1,0 +1,22 @@
+# Vellamo
+
+> Vellamo on selainpohjainen hallintajärjestelmä uinninopetukseen. Se yhdistää oppilastiedot, ryhmät, vuorot ja uimataidon seuranta yhteen paikkaan.
+
+Vellamo on Hailer Oy:n kehittämä tuote, joka on suunnattu uimakouluille ja uimaopetusta tarjoaville organisaatioille Suomessa.
+
+## Ominaisuudet
+
+- Oppilastietojen hallinta
+- Ryhmien ja vuorojen hallinta
+- Uimataidon seuranta ja tasomerkinnät
+- Selainpohjainen — ei asennuksia
+
+## Yritys
+
+Hailer Oy
+Rihkamatori 2, 06100 Porvoo
+https://www.hailer.com
+
+## Lisätietoa
+
+- Tuotesivu: https://www.hailervellamo.com
