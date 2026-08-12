@@ -14,9 +14,14 @@ Vellamo on Hailer Oy:n kehittämä tuote, joka on suunnattu uimakouluille ja uim
 ## Yritys
 
 Hailer Oy
+
+Hailer on prosessialusta, joka yhdistää työnkulut, projektit ja viestinnän yhteen paikkaan.
+Asiakkaan prosessit ohjaavat järjestelmää, ei toisin päin.
+
 Rihkamatori 2, 06100 Porvoo
 https://www.hailer.com
 
 ## Lisätietoa
 
 - Tuotesivu: https://www.hailervellamo.com
+- Asiakastarinat: https://hailerreferences.com
