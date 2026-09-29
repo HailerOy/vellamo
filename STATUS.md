@@ -32,14 +32,16 @@ odottaa Milaa — ks. `hailer-gtm/asiakastarinat/vantaa-vellamo/STATUS.md`.
 
 ## Odottaa
 
-- **Timo Ahonen: kuuluvatko oppilaskohtaiset PDF-tulosteet Lite-tasolle** *(Jaana 29.9.;
-  Timon välitetty vastaus Pialta 29.9.: «voi olla jo ekassa mukana»)*. Sivustolla PDF-lause
+- **Pia vahvistaa Timo Ahoselta: kuuluvatko oppilaskohtaiset PDF-tulosteet Lite-tasolle**
+  *(Jaana antoi kysymyksen Pialle 29.9.; Timon välitetty vastaus Pialta 29.9.: «voi olla jo
+  ekassa mukana»)*. Sivustolla PDF-lause
   on nyt tasoa mainitsematta `Uimataidon seuranta` -kortissa — jos PDF onkin vain Prossa,
   sivu pitää korjata.
-  todenna: ihmislähde, kysy Timolta
-- **Timo Ahonen: onko huoltajille lähettäminen automaattista Pro-tasolla jo nyt vai
-  suunnitteilla** *(Jaana 29.9.)*. Pia kuvaa lähettämisen nykyisin manuaaliseksi.
-  todenna: ihmislähde, kysy Timolta
+  todenna: ihmislähde, kysy Pialta
+- **Pia vahvistaa Timo Ahoselta: onko huoltajille lähettäminen automaattista Pro-tasolla jo nyt vai
+  suunnitteilla** *(Jaana antoi kysymyksen Pialle 29.9.)*. Pia kuvaa lähettämisen nykyisin
+  manuaaliseksi.
+  todenna: ihmislähde, kysy Pialta
 
 ## Päätökset joita ei saa perua
 
