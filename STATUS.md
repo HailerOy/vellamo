@@ -4,9 +4,9 @@ Päivitetty: 2026-09-29
 
 ## Kesken nyt
 
-✅ **29.9. sivusto päivitetty ja julkaistu** *(commit d2a744e, livenä varmistettu)*:
-uusi `Hinnoittelu`-osio *(Lite, Pro, Enterprise hintahaarukoineen — alustava hinnasto,
-Jaana 29.9.: hinnat saa käyttää)*, Vuorojen suunnittelu merkitty Pro- ja
+✅ **29.9. sivusto päivitetty ja julkaistu** *(commitit d2a744e ja 638db1f, livenä varmistettu)*:
+uusi `Hinnoittelu`-osio *(Lite, Pro, Enterprise hintahaarukoineen — Pia vahvisti hinnat
+29.9., Jaana)*, oppilaskohtaisten PDF-tulosteiden maininta `Uimataidon seuranta` -kortissa, Vuorojen suunnittelu merkitty Pro- ja
 Enterprise-tasoille, Raportointi- ja Uimataidon seuranta -tekstit kertovat mitä tiedolla
 voi tehdä. `llms.txt` päivitetty samalla; JSON-LD ei sisällä hintoja.
 todenna: `curl -s https://www.hailervellamo.com/ | grep -c 'id="hinnoittelu"'`
@@ -45,8 +45,8 @@ odottaa Milaa — ks. `hailer-gtm/asiakastarinat/vantaa-vellamo/STATUS.md`.
 
 ## Päätökset joita ei saa perua
 
-- **2026-09-29 (Jaana):** hinnat saa näyttää sivustolla. Osion nimi on «Hinnoittelu»,
-  ei «Laajuudet». Hinnasto on alustava; hinnoittelun vahvistus ei ole viestinnän päätös.
+- **2026-09-29 (Jaana):** hinnat saa näyttää sivustolla, ja **Pia vahvisti hinnat 29.9.**
+  Osion nimi on «Hinnoittelu», ei «Laajuudet».
 - Google Analytics poistettu, Vercel Insights jää (commit bad3e98).
 
 ## Viitteet
