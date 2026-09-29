@@ -12,7 +12,7 @@ Vellamo on Hailer Oy:n kehittämä tuote, joka on suunnattu uimakouluille ja uim
 - Selainpohjainen — ei asennuksia
 - Raportointi opetuksen suunnitteluun ja resurssien kohdentamiseen
 
-## Laajuudet
+## Hinnoittelu
 
 - Vellamo Lite: pienille kunnille. Uimaopettajien mobiilisovellus, oppilaslistat, läsnäolot, uimataitomerkinnät, raportit. Ei vuorosuunnittelua eikä integraatioita. Käyttöönotto 3 000–5 000 €, lisenssi 250–450 €/kk.
 - Vellamo Pro: keskisuurille ja suurille kunnille. Lite-ominaisuudet sekä vuorosuunnittelu, ryhmien hallinta, koulukohtaiset näkymät ja kuljetusyksikön näkymät. Integraatiot erikseen sovittuna. Käyttöönotto 10 000–20 000 €, lisenssi 700–1 500 €/kk.
