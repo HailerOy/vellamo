@@ -1,10 +1,17 @@
 # STATUS — Vellamo
 
-Päivitetty: 2026-08-30 22:40
+Päivitetty: 2026-09-29
 
 ## Kesken nyt
 
-Sivusto on kunnossa ja tarkistettu useaan kertaan. Kaksi siivousasiaa on kirjattu
+✅ **29.9. sivusto päivitetty ja julkaistu** *(commit d2a744e, livenä varmistettu)*:
+uusi `Hinnoittelu`-osio *(Lite, Pro, Enterprise hintahaarukoineen — alustava hinnasto,
+Jaana 29.9.: hinnat saa käyttää)*, Vuorojen suunnittelu merkitty Pro- ja
+Enterprise-tasoille, Raportointi- ja Uimataidon seuranta -tekstit kertovat mitä tiedolla
+voi tehdä. `llms.txt` päivitetty samalla; JSON-LD ei sisällä hintoja.
+todenna: `curl -s https://www.hailervellamo.com/ | grep -c 'id="hinnoittelu"'`
+
+Kaksi siivousasiaa on kirjattu
 **ylläpitovelkaan** *(`~/Hailer/KONTEKSTIVELKA.md`)*, koska ne eivät ole sisältötyötä:
 ⚠️ **niiden korjaus vaatii luvan rivi kerrallaan** eikä tapahdu muun työn sivutuotteena.
 
@@ -13,15 +20,15 @@ Sivusto on kunnossa ja tarkistettu useaan kertaan. Kaksi siivousasiaa on kirjatt
   Uutta 30.8.: se vastaa julkisesti 200:lla, eli on kaksoiskappalesisältöä.
 - `.gitignore` puuttuu, `.DS_Store` on pushattu. Ei vuoda mitään.
 
-TÄYDENNETTÄVÄ — muu sisältötyö.
-
 Viimeisin commit (18e7986) lisäsi Google Search Console -vahvistustunnisteen; sitä
 ennen poistettiin Google Analytics ja lisättiin Hailerin vakiokuvaus alatunnisteeseen,
 llms.txt:hen ja JSON-LD-rakennedataan.
 
 ## Seuraava askel
 
-TÄYDENNETTÄVÄ — konkreettinen toimenpide.
+**Lisää Vantaan asiakastarina sivustolle** (oma osio tai linkki `Hinnoittelu`- ja
+`Käyttöönotto`-osioiden väliin) **kun tarina on hyväksytty ja julkaistu.** Hyväksyntä
+odottaa Milaa — ks. `hailer-gtm/asiakastarinat/vantaa-vellamo/STATUS.md`.
 
 ## Odottaa
 
@@ -29,6 +36,8 @@ Ei avoimia kohtia.
 
 ## Päätökset joita ei saa perua
 
+- **2026-09-29 (Jaana):** hinnat saa näyttää sivustolla. Osion nimi on «Hinnoittelu»,
+  ei «Laajuudet». Hinnasto on alustava; hinnoittelun vahvistus ei ole viestinnän päätös.
 - Google Analytics poistettu, Vercel Insights jää (commit bad3e98).
 
 ## Viitteet
