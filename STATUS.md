@@ -1,8 +1,11 @@
 # STATUS — Vellamo
 
-Päivitetty: 2026-09-29
+Päivitetty: 2026-10-29
 
 ## Kesken nyt
+
+✅ **29.10. Enterprise-hinta muutettu** Pian pyynnöstä *(Espoon palaveri maanantaina)*: «alkaen 20 000 € / alkaen 1 500 €/kk» + lause että lopullinen hinta määräytyy integraatioiden, räätälöintien ja käyttäjämäärän mukaan. Lite ja Pro ennallaan. `index.html` ja `llms.txt`.
+todenna: `curl -s https://www.hailervellamo.com/ | grep -c "alkaen 20 000"`
 
 ✅ **29.9. sivusto päivitetty ja julkaistu** *(commitit d2a744e ja 638db1f, livenä varmistettu)*:
 uusi `Hinnoittelu`-osio *(Lite, Pro, Enterprise hintahaarukoineen — Pia vahvisti hinnat
@@ -45,6 +48,7 @@ odottaa Milaa — ks. `hailer-gtm/asiakastarinat/vantaa-vellamo/STATUS.md`.
 
 ## Päätökset joita ei saa perua
 
+- **2026-10-29 (Pia):** Enterprise-hinta näytetään muodossa «alkaen», ei haarukkana.
 - **2026-09-29 (Jaana):** hinnat saa näyttää sivustolla, ja **Pia vahvisti hinnat 29.9.**
   Osion nimi on «Hinnoittelu», ei «Laajuudet».
 - Google Analytics poistettu, Vercel Insights jää (commit bad3e98).
