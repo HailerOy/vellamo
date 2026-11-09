@@ -101,6 +101,15 @@
   .aud-col li:last-child{border-bottom:none}
   .aud-col li::before{content:'→ ';color:var(--teal);font-weight:600}
 
+  /* VANTAA KÄYTÖSSÄ */
+  .ref-grid{display:grid;grid-template-columns:1fr 260px;gap:40px;align-items:start;margin-top:32px}
+  .ref-quote{border-left:4px solid var(--orange);background:var(--gray);border-radius:0 12px 12px 0;padding:16px 20px;margin-bottom:16px}
+  .ref-ctx{font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+  .ref-quote p{font-size:18px;font-weight:600;color:var(--navy);font-style:italic;line-height:1.5}
+  .ref-who{font-size:14px;color:var(--muted);margin:4px 0 24px}
+  .ref-img img{width:100%;height:auto;border-radius:12px;display:block}
+  .ref-link{display:inline-block}
+
   /* KÄYTTÖÖNOTTO */
   .launch-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
   .launch-step{background:var(--gray);border-radius:12px;padding:20px;position:relative}
@@ -128,6 +137,8 @@
     .problem-grid,.features,.process-steps,.launch-steps{grid-template-columns:1fr}
     .process-steps::before{display:none}
     .audience-panel.active{grid-template-columns:1fr}
+    .ref-grid{grid-template-columns:1fr}
+    .ref-img{max-width:260px;margin:0 auto}
     nav .nav-links{display:none}
   }
 </style>
@@ -422,6 +433,34 @@
     </div>
   </section>
 </div>
+
+<!-- VANTAA KÄYTÖSSÄ -->
+<section class="section" id="vantaa">
+  <div class="section-label">Käytössä</div>
+  <h2 class="section-title">Näin Vantaa käyttää Vellamoa</h2>
+  <p class="section-lead">Vantaan kaupunki on rakentanut uinninopetuksen hallintaan oman järjestelmänsä, Vellamon, Hailer-alustalle. Vantaalla koululaisten uinninopetuksessa on vuosittain noin 13&nbsp;000 oppilasta, ja ryhmiä on vuodessa yli&nbsp;800.</p>
+  <div class="ref-grid">
+    <div>
+      <div class="ref-quote">
+        <div class="ref-ctx">Tiedon saatavuudesta</div>
+        <p>"Tieto ei ole niin repaleista eikä niin manuaalista."</p>
+      </div>
+      <div class="ref-quote">
+        <div class="ref-ctx">Tilastoinnista</div>
+        <p>"Se on nopeaa, tehokasta, reaaliaikaista ja luotettavaa."</p>
+      </div>
+      <div class="ref-quote">
+        <div class="ref-ctx">Nykyisestä Vellamosta</div>
+        <p>"Nyt on aika semmoinen valmis olo."</p>
+      </div>
+      <p class="ref-who">Mila Sjöblom, Vantaan kaupunki</p>
+      <a class="btn-primary ref-link" href="https://www.hailerreferences.com/tarinat/vantaa-vellamo.html" target="_blank" rel="noopener">Lue koko asiakastarina →</a>
+    </div>
+    <div class="ref-img">
+      <img src="kuvat/vantaa-uimaopettaja-tabletti.jpg" alt="Uimaopettaja käyttää tablettia uimahallin altaan reunalla" loading="lazy">
+    </div>
+  </div>
+</section>
 
 <!-- HINNOITTELU -->
 <section class="section" id="hinnoittelu">
