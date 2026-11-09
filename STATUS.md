@@ -29,19 +29,21 @@ llms.txt:hen ja JSON-LD-rakennedataan.
 
 ## Seuraava askel
 
-✅ **9.11. Vantaan asiakastarina lisätty sivustolle** *(oma osio `#vantaa`, ennen Hinnoittelua)*:
-kaksi lukua *(13 000 oppilasta, yli 800 ryhmää)*, kolme sitaattia Milan hyväksymästä tekstistä,
-pieni kuva `kuvat/vantaa-uimaopettaja-tabletti.jpg` *(600×800)* ja nappi koko tarinaan
-`hailerreferences.com/tarinat/vantaa-vellamo.html` *(uusi välilehti)*. Committoitu **paikallisesti,
-EI pushattu**. Jaana valitsi vaihtoehdon B ja kuvan mukaan. `llms.txt`:ään lisätty
-«Asiakastarina»-osio.
+✅ **9.11. Vantaan asiakastarina lisätty sivustolle ja julkaistu** *(commitit `69903db`, `5477814`,
+pushattu `origin/main` `64f08f2..5477814`)*. Oma osio `#vantaa` ennen Hinnoittelua: kaksi lukua
+*(13 000 oppilasta, yli 800 ryhmää)*, kolme sitaattia Milan hyväksymästä tekstistä, pieni kuva
+`kuvat/vantaa-uimaopettaja-tabletti.jpg` *(600×800)* ja nappi koko tarinaan
+`hailerreferences.com/tarinat/vantaa-vellamo.html` *(uusi välilehti)*. `llms.txt`:ssä uusi
+«Asiakastarina»-osio. Jaana valitsi vaihtoehdon B ja kuvan mukaan.
+**Vahvistettu tuotannosta:** osio `id="vantaa"` 1 kpl, kuva 200, `llms.txt` sisältää Vantaan,
+Enterprise-hinta ennallaan.
+todenna: `curl -s https://www.hailervellamo.com/ | grep -c 'id="vantaa"'` → 1
 
-**1. 🔴 Push vaatii luvan** — se käynnistää Vercelin *ja* GitHub Pagesin. Työpuussa on toisen
-session committoimaton rivi `llms.txt`:ssä ja seuraamaton `CLAUDE.md` — ne eivät ole mukana.
-**2. Push jälkeen:** `curl -s https://www.hailervellamo.com/ | grep -c 'id="vantaa"'` → 1 ja kuva 200.
+*(ei avoimia askelia Vantaan osalta — Milalle kertominen on Jaanan oma viesti, ks.
+`hailer-gtm/asiakastarinat/vantaa-vellamo/STATUS.md`)*
 
 ⚠️ **Kuvan lupa:** Milan lupa oli «nettisivuilla tarinan julkaisussa»; Jaana päätti 9.11. käyttää
-kuvaa myös Vellamo-tuotesivulla. Kerro Milalle kun kerrot sivun julkaisusta.
+kuvaa myös tällä tuotesivulla. **Ei LinkedInille eikä muihin kanaviin.**
 
 ## Odottaa
 
