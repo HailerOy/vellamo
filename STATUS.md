@@ -1,6 +1,6 @@
 # STATUS — Vellamo
 
-Päivitetty: 2026-10-29
+Päivitetty: 2026-11-09
 
 ## Kesken nyt
 
@@ -29,9 +29,19 @@ llms.txt:hen ja JSON-LD-rakennedataan.
 
 ## Seuraava askel
 
-**Lisää Vantaan asiakastarina sivustolle** (oma osio tai linkki `Hinnoittelu`- ja
-`Käyttöönotto`-osioiden väliin) **kun tarina on hyväksytty ja julkaistu.** Hyväksyntä
-odottaa Milaa — ks. `hailer-gtm/asiakastarinat/vantaa-vellamo/STATUS.md`.
+✅ **9.11. Vantaan asiakastarina lisätty sivustolle** *(oma osio `#vantaa`, ennen Hinnoittelua)*:
+kaksi lukua *(13 000 oppilasta, yli 800 ryhmää)*, kolme sitaattia Milan hyväksymästä tekstistä,
+pieni kuva `kuvat/vantaa-uimaopettaja-tabletti.jpg` *(600×800)* ja nappi koko tarinaan
+`hailerreferences.com/tarinat/vantaa-vellamo.html` *(uusi välilehti)*. Committoitu **paikallisesti,
+EI pushattu**. Jaana valitsi vaihtoehdon B ja kuvan mukaan. `llms.txt`:ään lisätty
+«Asiakastarina»-osio.
+
+**1. 🔴 Push vaatii luvan** — se käynnistää Vercelin *ja* GitHub Pagesin. Työpuussa on toisen
+session committoimaton rivi `llms.txt`:ssä ja seuraamaton `CLAUDE.md` — ne eivät ole mukana.
+**2. Push jälkeen:** `curl -s https://www.hailervellamo.com/ | grep -c 'id="vantaa"'` → 1 ja kuva 200.
+
+⚠️ **Kuvan lupa:** Milan lupa oli «nettisivuilla tarinan julkaisussa»; Jaana päätti 9.11. käyttää
+kuvaa myös Vellamo-tuotesivulla. Kerro Milalle kun kerrot sivun julkaisusta.
 
 ## Odottaa
 
